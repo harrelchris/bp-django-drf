@@ -1,0 +1,5 @@
+-r base.txt
+
+django-cors-headers
+gunicorn
+psycopg2
