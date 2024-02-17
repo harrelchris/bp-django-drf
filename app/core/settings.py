@@ -6,6 +6,8 @@ env = environ.Env(
     DEBUG=(bool, False),
 )
 
+AUTH_USER_MODEL = "users.User"
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 env.read_env(BASE_DIR.parent / ".env")
@@ -25,6 +27,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "rest_framework",
     "common",
+    "users",
 ]
 
 MIDDLEWARE = [
