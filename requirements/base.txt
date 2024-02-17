@@ -1,4 +1,8 @@
 Django
 Django-Environ
+Django-Filter
 DjangoRESTFramework
 DRF-Spectacular
+Markdown
+PyYAML
+URITemplate
