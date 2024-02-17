@@ -1,3 +1,4 @@
 Django
 Django-Environ
 DjangoRESTFramework
+DRF-Spectacular
